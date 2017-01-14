@@ -1,5 +1,5 @@
 {
-  "name": "window-reduce",
+  "name": "circular-buffer-reduce",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
