@@ -1,6 +1,6 @@
 module.exports = function (id, reduce, width, max) {
   return function (acc, data) {
-    if(!acc) acc = {data: new Array(max), current: null}
+    if(!acc) acc = {data: new Array(max), current: null, width: width, max: max}
     var ts = id(data)
     var cur = ~~(ts/width), _cur = ~~(acc.current/width)
     if(cur !== _cur) {
